@@ -10,10 +10,10 @@ export function Footer() {
         <div className="py-5 grid items-start sm:grid-cols-2 grid-rows-1 grid-cols-1 gap-2 sm:gap-1.5 lg:gap-1">
           <div className="flex items-start flex-col gap-2">
             <Link href={`/codecs`}>Кодекс предпринимателской этики</Link>
-            <Link href={`/yuridi`}>Юридическая помощь</Link>
-            <Link href={`/obmen`}>Обмен опытом</Link>
+            <Link href={`/juridical`}>Юридическая помощь</Link>
+            <Link href={`/exchange`}>Обмен опытом</Link>
             <Link href={`/news`}>Новости</Link>
-            <Link href={`/inoplatej`}> Ино. платежная система</Link>
+            <Link href={`/foreign`}> Ино. платежная система</Link>
             <Link href={`/erp-crm`}>ERP/CRM</Link>
           </div>
           <div className="flex items-start gap-2 flex-col">

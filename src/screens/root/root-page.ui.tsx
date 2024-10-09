@@ -13,7 +13,7 @@ export function RootPage() {
       <Header />
       <main className="container flex min-h-[75dvh] gap-2.5">
         <Tabs className="flex lg:flex-row flex-col w-full">
-          <TabsList className="lg:w-1/3 lg:flex-col items-start gap-2.5 overflow-x-auto md:h-full overflow-y-hidden md:h-full overflow-y-hidden">
+          <TabsList className="lg:w-1/3 lg:flex-col items-start gap-2.5 overflow-x-auto md:h-full overflow-y-hidden">
             <TabsTrigger value="codecs">
               Кодекс предпринимателской этики
             </TabsTrigger>
