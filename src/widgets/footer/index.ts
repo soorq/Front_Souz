@@ -1,1 +1,1 @@
-export * from './footer.ui'
+export * from "./footer.ui";
