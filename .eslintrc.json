@@ -3,4 +3,3 @@
   "plugins": ["prettier"],
   "ignorePatterns": ["next.config.mjs"]
 }
-
