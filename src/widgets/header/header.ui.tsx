@@ -53,13 +53,11 @@ export function Header() {
               <NavigationMenu>
                 <NavigationMenuList className="flex-col items-start gap-1 space-x-0">
                   <NavigationMenuItem className="flex flex-col">
-                    <p className="mb-1"> Нормативно-правовая база</p>
-
                     <Link href={`/codecs`} legacyBehavior passHref>
                       <NavigationMenuLink
                         className={navigationMenuTriggerStyle()}
                       >
-                        Кодекс предпринимателской этики
+                        Нормативно-правовая база
                       </NavigationMenuLink>
                     </Link>
                   </NavigationMenuItem>
@@ -116,24 +114,12 @@ export function Header() {
         {!isMobile && (
           <NavigationMenuList>
             <NavigationMenuItem>
-              <Popover>
-                <PopoverTrigger asChild>
-                  <NavigationMenuTrigger>
-                    Нормативно-правовая база
-                  </NavigationMenuTrigger>
-                </PopoverTrigger>
-                <PopoverContent>
-                  <ul
-                    className={cn(
-                      "grid gap-2 p-1.5 w-[200px] lg:grid-cols-[_1fr]"
-                    )}
-                  >
-                    <ListItem href={`/codecs`}>
-                      Кодекс предпринимателской этики
-                    </ListItem>
-                  </ul>
-                </PopoverContent>
-              </Popover>
+              <NavigationMenuLink
+                href="/"
+                className={navigationMenuTriggerStyle()}
+              >
+                Нормативно-правовая база
+              </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/yuridi" legacyBehavior passHref>
