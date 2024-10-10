@@ -31,7 +31,7 @@ export function Header() {
         <div className="flex gap-2.5 w-full h-full items-center">
           <div className="relative size-20">
             <Image
-              src="/logo/logo.jfif"
+              src="/logo/logo.jpg"
               className="object-contain"
               sizes="100%"
               alt="Logo"
